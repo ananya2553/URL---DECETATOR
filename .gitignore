@@ -1,1 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+ENV/
+.streamlit/config.toml
+
+# Data (Large Files)
 malicious_phish.csv
+*.csv
+!sample_data.csv
+
+# Models
+# phish_model.pkl  # Uncomment if you want to ignore the model too
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store

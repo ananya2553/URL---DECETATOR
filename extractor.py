@@ -2,6 +2,11 @@ import re
 from tldextract import extract
 
 def get_url_features(url):
+    """
+    Extracts behavioral and structural features from a URL for phishing detection.
+    Features: subdomain_len, domain_len, url_length, dot_count, hyphen_count, 
+    at_count, slash_count, is_https, is_ip, digit_ratio, suspicious_words_count.
+    """
     features = {}
     url = str(url)
     
