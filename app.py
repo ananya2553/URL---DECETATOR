@@ -10,7 +10,7 @@ import time
 from extractor import get_url_features
 
 # --- 1. CORE ENGINE CONFIGURATION ---
-GEMINI_API_KEY = "AIzaSyDjmE7tHOBa16iDq-pOmhbbbJwFz39TCsY" 
+GEMINI_API_KEY = "" 
 genai.configure(api_key=GEMINI_API_KEY)
 gemini_model = genai.GenerativeModel('gemini-flash-latest')
 
